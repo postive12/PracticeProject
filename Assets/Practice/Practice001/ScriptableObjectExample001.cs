@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace Practice.Practice001
 {
-    //유니티에 메뉴 추가
+    //Add menu
     [CreateAssetMenu(fileName = "ScriptableObjectExample", menuName = "ScriptableObject/ScriptableObjectExample")]
-    public class ScriptableObjectExample001 : ScriptableObject //ScriptableObject를 상속
+    public class ScriptableObjectExample001 : ScriptableObject //Inherit scriptable object
     {
-        public TestClass001[] TestInt;//저장할 데이터 변수
+        public TestClass001[] TestVariable;//Variable that contains data
     }
 }
