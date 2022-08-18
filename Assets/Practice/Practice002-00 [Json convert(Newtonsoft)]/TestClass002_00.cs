@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace Practice.Practice002
+namespace Practice.Practice002_00
 {
     [Serializable]
-    public class TestClass002
+    public class TestClass002_00
     {
         public int Id;
         public int Value;

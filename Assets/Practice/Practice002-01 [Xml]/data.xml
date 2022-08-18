@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<TestClass002_01 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>10</Id>
+  <Value>20</Value>
+  <Boolean>true</Boolean>
+  <CustomData>
+    <CustomClass002_01>
+      <Code>10</Code>
+      <Value>20</Value>
+    </CustomClass002_01>
+    <CustomClass002_01>
+      <Code>30</Code>
+      <Value>5</Value>
+    </CustomClass002_01>
+    <CustomClass002_01>
+      <Code>60</Code>
+      <Value>7</Value>
+    </CustomClass002_01>
+  </CustomData>
+</TestClass002_01>
