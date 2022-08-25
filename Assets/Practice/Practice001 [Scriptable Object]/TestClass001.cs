@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Practice.Practice001
+namespace Practice.Practice001__Scriptable_Object_
 {
     [Serializable]//클래스를 직렬화하여 데이터를 저장할 수 있도록 만든다.
     public class TestClass001

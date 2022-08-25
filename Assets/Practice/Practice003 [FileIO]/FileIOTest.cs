@@ -1,23 +1,26 @@
 using System.IO;
 using UnityEngine;
 
-public class FileIOTest : MonoBehaviour
+namespace Practice.Practice003__FileIO_
 {
-    private void Start()
+    public class FileIOTest : MonoBehaviour
     {
-        Write(Application.persistentDataPath+"\\test.dat");
-    }
-    private void Write(string path)
-    {
-        File.WriteAllText(path,"this is text");//Write text on path
-    }
-    private void Read(string path)
-    {
-        var fileInfo = new FileInfo(path);
-        if (!fileInfo.Exists) {//Check file
-            throw new UnityException("File not found.");
+        private void Start()
+        {
+            Write(Application.persistentDataPath+"\\test.dat");
         }
-        var result = File.ReadAllText(path);//Read text from path
-        Debug.Log(result);
+        private void Write(string path)
+        {
+            File.WriteAllText(path,"this is text");//Write text on path
+        }
+        private void Read(string path)
+        {
+            var fileInfo = new FileInfo(path);
+            if (!fileInfo.Exists) {//Check file
+                throw new UnityException("File not found.");
+            }
+            var result = File.ReadAllText(path);//Read text from path
+            Debug.Log(result);
+        }
     }
 }

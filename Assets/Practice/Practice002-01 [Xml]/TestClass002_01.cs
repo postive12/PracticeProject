@@ -1,16 +1,17 @@
 using System;
-namespace Practice.Practice002_01
+
+namespace Practice.Practice002_01__Xml_
 {
     [Serializable]
-    public class TestClass002_01
+    public class TestClass00201
     {
         public int Id;
         public int Value;
         public bool Boolean;
-        public CustomClass002_01[] CustomData;
+        public CustomClass00201[] CustomData;
     }
     [Serializable]
-    public class CustomClass002_01
+    public class CustomClass00201
     {
         public int Code;
         public int Value;

@@ -1,13 +1,14 @@
 using System;
 using System.IO;
 using Newtonsoft.Json;
+using Practice.Practice002_00__Json_convert_Newtonsoft__;
 using UnityEngine;
 
 namespace Practice.Practice002_00
 {
     public class JsonTest : MonoBehaviour
     {
-        public TestClass002_00[] TestVariable;
+        public TestClass00200[] TestVariable;
         public TextAsset JsonFile;//Variable that contains json data
         private void Start()
         {
@@ -22,7 +23,7 @@ namespace Practice.Practice002_00
         //Json export func
         public void Print()
         {
-            var result = JsonConvert.DeserializeObject<TestClass002_00[]>(JsonFile.text);//convert to usable data
+            var result = JsonConvert.DeserializeObject<TestClass00200[]>(JsonFile.text);//convert to usable data
             foreach (var i in result)
             {
                 Debug.Log($"Id : {i.Id}, Value : {i.Value}, Bool : {i.Boolean}");//Print data;
