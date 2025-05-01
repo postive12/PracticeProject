@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Practice.Practice004__UI_.Button
+namespace Practice.Practice004
 {
     public class Practice00401 : MonoBehaviour
     {
